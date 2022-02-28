@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'rodina';
+    
+}
+
+.kontajner{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-image:linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url(../images/lines-diagonal1.png);
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+
+.navigacny_panel{
+    background-color: white ;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 12px;
+    padding: 5px;
+    
+    }
+
+    button {
+        width: 100px;
+        color: rgba(0,0,0,);
+        font-size: 10px;
+        font-family: 'rodina';
+        font-weight: bolder;
+        padding: 5px 1px 5px 1px;
+        background: azure;
+        border: 0;
+        border-radius: 20px;
+    }
+    
+
+    .logo_elektro{
+        width: 50px;
+        cursor: pointer;
+    }
+    
+    .logo_menu{
+        width: 50px;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+    
+    nav{
+        flex: 1;
+        text-align: right;
+        
+    }
+    
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: azure;
+        font-size: 15px;
+    }
+
+    button:hover{
+        transform:translateY(-2px);
+    }
+    
+    .zoznam{
+        transition: trasnform 0.5s;
+    }
+    
+    .zoznam:hover{
+        transform: translateY(-2px);
+    }
+
+    .O {
+        font-size: 70px;
+
+    }
+
+    .nadpis_obsh {
+        position: relative;
+        top: 120px;
+    }
+
+    .nadpis_zakl {
+        margin-left: 785px;
+    }
+
+    div.video {
+        position: absolute;
+        top: 120px;
+        right: 620px;
+        margin-right: 50px;
+    }
+
+    div.audio {
+        
+        position: absolute;
+        bottom: 350px;
+        
+    }
+
+    .info_zakl {
+        width: 450px;
+        margin-left: auto;
+        padding: 20px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .obsah {
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+
+    .nadpis {
+        font-size: large;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .kontakt {
+        background-color: rgb(234, 245, 244);
+        padding: 100px;
+    }
+
+    .sprava {
+        position: absolute;
+        bottom: 20px;
+        margin-left: 750px;
+    }
+
+        .submit {
+            display: block;
+        }
+
+    .typ {
+        display: flex;
+        align-items: space-between;
+        padding: 20px;
+
+    }
+
+    .pole {
+        margin-top: 22px;
+        position: absolute;
+        left: 220x;
+    }
+
+    .ja {
+        height: 200px;
+        margin-left: 40px;
+    }
+
+    .jk {
+    position: relative;
+    top: 70px;
+    font-size: large;
+    margin-left: 30px; 
+    text-decoration: none;
+    display: flex;
+    }
+   
+
+    div.portret {
+       display: flex;
+       justify-content: center;
+       padding: 20px;
+       
+    }
+
+    div.form {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        padding: 40px;
+        text-align: center;
+        font-size: large;
+    }
+        .od_for {
+        width: 100px;
+        color: rgba(0,0,0,);
+        font-size: 10px;
+        font-family: 'rodina';
+        font-weight: bolder;
+        padding: 5px 1px 5px 1px;
+        background: azure;
+        border: 0;
+        border-radius: 20px;
+        }
+
+    .zak_odkaz {
+        text-decoration: none;
+        color: black;
+    }
+
+    .zak_odkaz:focus {
+        color: blueviolet;
+
+    }
+
+    .zak_odkaz:hover {
+        color: black;
+
+    }
+
+    div.odkazy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    @font-face {
+        font-family: 'rodina';
+        src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+    }
+    

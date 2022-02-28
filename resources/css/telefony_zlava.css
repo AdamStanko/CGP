@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'rodina';
+    
+}
+
+.kontajner{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-image:linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.0)), url(../images/lines-diagonal1.png);
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+
+.navigacny_panel{
+    background-color: white ;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 12px;
+    padding: 10px;
+    
+    }
+
+    button {
+        width: 100px;
+        color: rgba(0,0,0,);
+        font-size: 10px;
+        font-family: 'rodina';
+        font-weight: bolder;
+        padding: 5px 1px 5px 1px;
+        background: azure;
+        border: 0;
+        border-radius: 20px;
+    }
+    
+
+    .logo_elektro{
+        width: 50px;
+        cursor: pointer;
+    }
+    
+    .logo_menu{
+        width: 50px;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+    
+    nav{
+        flex: 1;
+        text-align: right;
+        
+    }
+    
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: azure;
+        font-size: 15px;
+    }
+
+    .zoznam:hover{
+        transform: translateY(-2px);
+    }
+
+    .produkty {
+        padding: 40px;
+        
+    }
+
+
+    .kon_produkt {
+        height: 400px;
+        background-color: rgb(234, 245, 244);
+        border-bottom: solid 2px white;
+        border-width: 10px;
+        padding: 25px;
+        
+    }
+    
+    h5 {
+        font-size: large;
+    }
+
+    h4 {
+        font-size: medium;
+    }
+    
+    h3 {
+        padding-top: 25px;
+        text-shadow: 10px 10px 10px;
+    }
+
+    .blok {
+        position: relative;
+        bottom: 280px;
+    }
+
+    p {
+        text-decoration: none;
+        text-align:justify;
+        width: 800px;
+        text-indent: 10px;
+        font-size:15px;
+    }
+
+    .obrs {
+        margin-left: 850px;
+    }
+
+    .old {
+        text-decoration: line-through;
+        font-size: 25px;
+    }
+
+    .new {
+        color: red;
+        font-size: 25px;
+    }
+
+    
+
+    
+
+    @font-face {
+        font-family: 'rodina';
+        src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+    }
