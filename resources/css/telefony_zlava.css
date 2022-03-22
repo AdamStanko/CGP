@@ -79,7 +79,6 @@ h1 {
 
     .produkty {
         padding: 40px;
-        
     }
 
 
@@ -132,9 +131,18 @@ h1 {
         font-size: 25px;
     }
 
-    
-
-    
+    @media only screen and (max-width: 1024px) {
+        .obrs {
+            margin-left: 350px;
+            padding: 10px;
+        }
+        p {
+            width: 350px;
+            font-size: 10px;
+        }
+        
+        
+    }
 
     @font-face {
         font-family: 'rodina';

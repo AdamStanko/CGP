@@ -160,9 +160,16 @@ h1 {
         top: 50px;
     }
 
-    @font-face {
-        font-family: 'rodina';
-        src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+    @media only screen and (max-width: 1024px) {
+        h2 {
+            font-size: 60px;
+        }
+        .kopirajt {
+            position: relative;
+            left: 190px;
+        }
+
+        
     }
 
     @font-face {

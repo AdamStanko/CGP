@@ -107,7 +107,6 @@ h1 {
     }
 
     div.audio {
-        
         position: absolute;
         bottom: 350px;
         
@@ -152,10 +151,12 @@ h1 {
         display: flex;
         align-items: space-between;
         padding: 20px;
+        
 
     }
 
     .pole {
+
         margin-top: 22px;
         position: absolute;
         left: 220x;
@@ -226,6 +227,7 @@ h1 {
     }
 
     .mapa {
+        display: flex ;
         width: 100%;
     }
 

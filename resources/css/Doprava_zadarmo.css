@@ -140,6 +140,26 @@ h1 {
         align-items: space-evenly;
         height: 50px;
     }
+    @media only screen and (max-width: 1024px) {
+        .obr_zlava {
+            position: relative;
+            right: 55px;
+        }
+        div.cenník {  
+            position: relative;
+            left: 160px;
+        }
+        h3 {
+            color: black;
+            position:absolute;
+            margin-left: 420px;
+            bottom: 1520px;
+            font-size: 60px;
+        }
+
+        
+
+    }
 
     @font-face {
         font-family: 'rodina';
