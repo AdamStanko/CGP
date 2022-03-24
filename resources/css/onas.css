@@ -230,6 +230,37 @@ h1 {
         display: flex ;
         width: 100%;
     }
+    @media only screen and (max-width: 1024px) {
+        .sprava {
+            position: absolute;
+            bottom: 1300px;
+            margin-left: 350px;
+        }
+        .nadpis_zakl {
+            margin-left: 460px;
+            font-size: 10px;
+        }
+        .info_zakl {
+           font-size: 10px;
+           width: 300px;
+        }
+        div.video {
+            position: absolute;
+            left: 350px;
+            display: none;
+            margin: 0;
+        }
+        div.audio {
+            position: absolute;
+            bottom: 1650px;
+            
+
+        }
+            
+
+
+
+    }
 
     @font-face {
         font-family: 'rodina';
