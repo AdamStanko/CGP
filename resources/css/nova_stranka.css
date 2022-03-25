@@ -149,15 +149,16 @@ h1 {
     }
 
     .pata {
-        height: 10%;
+        width: 100%;
+        height: 50px;
         background-position: center;
+        background-color: white;
     }
 
     .kopirajt {
         font-size: 14px;
-        position: relative;
-        left: 380px;
-        top: 50px;
+        margin-left: 400px;
+        padding-top: 15px;
     }
 
     @media only screen and (max-width: 1024px) {
@@ -165,8 +166,9 @@ h1 {
             font-size: 60px;
         }
         .kopirajt {
-            position: relative;
-            left: 190px;
+            font-size: 14px;
+            margin-left: 200px;
+            padding-top: 15px;  
         }
         
 
